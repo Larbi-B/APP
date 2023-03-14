@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">APP</string>
+    <string name="started_title">Azul</string>
+    <string name="started_sub_title">
+        Bienvenue !
+        <br><b>Si vous avez déjà un compte, Veuillez vous connecter</b></br>
+        <br><b>Pour créer un compte, Veuillez vous inscrire</b></br>
+    </string>
+    <string name="btn_register">Inscription</string>
+    <string name="btn_login">Connexion</string>
+    <string name="login_title">Connexion à l\'application</string>
+    <string name="login_sub_title">
+        Vous avez déjà un compte.
+        <font color="#00C9B8"><b>Connectez-vous</b></font>
+    </string>
+    <string name="login_email">Votre Identifiant ou Email</string>
+    <string name="login_password">Mot de Passe</string>
+    <string name="login_forgot_pw">Mot de passe oublié ?</string>
+    <string name="login_havent_account">
+        Vous n\'avez pas de compte ?
+        <font color="#00C9B8"><b>Inscrivez-vous</b></font>
+    </string>
+    <string name="register_title">Créer un compte</string>
+
+
+    <string name="register_sub_title">
+        Pour commencer,
+        <font color="#00C9B8"><b>Inscrivez-vous</b></font>
+    </string>
+    <string name="register_fullname">votre nom et prénom</string>
+    <string name="register_email">votre email</string>
+    <string name="register_username">votre identifiant</string>
+    <string name="register_confirm_password">confirmer votre mot de passe</string>
+    <string name="register_have_account">
+        Vous avez déjà un compte !
+        <font color="#00C9B8"><b>Connectez-vous</b></font>
+    </string>
+    <string name="home_title">AZULLL</string>
+    <string name="home_sub_title">Bienvenue sur la page d\'accueil</string>
+    <string name="btn_logout">Déconnexion</string>
+</resources>

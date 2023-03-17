@@ -38,6 +38,7 @@
     <string name="comboboxEvents">Le type d\'événement</string>
     <string name="evenements_venir">Evenements à venir</string>
     <string name="started_sub_title">Hello everyone</string>
+    <string name="test">Test</string>
 
 
 </resources>

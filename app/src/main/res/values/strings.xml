@@ -37,6 +37,7 @@
     <string name="addEvent_page_title"> Creation d\'un evenement </string>
     <string name="comboboxEvents">Le type d\'événement</string>
     <string name="evenements_venir">Evenements à venir</string>
+    <string name="started_sub_title">Hello everyone</string>
 
 
 </resources>

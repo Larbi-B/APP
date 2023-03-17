@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -21,7 +22,7 @@
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_log_out"
-            android:contentDescription="TODO" />
+            tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
 
@@ -38,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Test"
+        android:text="@string/test"
         app:layout_constraintBottom_toTopOf="@+id/view_separation"
         app:layout_constraintStart_toEndOf="@+id/cardView" />
 
@@ -47,12 +48,13 @@
         style="@style/SubTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Test"
+        android:text="@string/test"
         app:layout_constraintStart_toStartOf="@+id/event_title"
         app:layout_constraintTop_toBottomOf="@+id/view_separation" />
 
 
     <ImageView
+        android:id="@+id/join_item"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:src="@drawable/ic_join"
@@ -60,7 +62,8 @@
         app:layout_constraintEnd_toEndOf="@+id/view_separation"
         app:layout_constraintTop_toTopOf="@+id/cardView"
         android:layout_marginEnd="14dp"
-        android:contentDescription="TODO" />
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
 
 
 

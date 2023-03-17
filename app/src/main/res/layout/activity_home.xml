@@ -1,47 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".HomeActivity"
-    android:orientation="vertical"
-    android:padding="20dp"
-    android:gravity="center">
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/home_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/home_title"
-        android:textAlignment="center"
-        style="@style/Title"/>
-    
-    <TextView
-        android:id="@+id/home_sub_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/home_sub_title"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        style="@style/SubTitle" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_logout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="@string/btn_logout"
-        style="@style/ButtonGreen"/>
-
-    <TextView
-        android:id="@+id/filter_name_text_view"
+        android:id="@+id/app_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:includeFontPadding="false"
-        android:paddingHorizontal="12dp"
-        android:paddingVertical="4dp"
-        android:textColor="@color/grey"
-        tools:text="Football" />
+        android:text="@string/app_name"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Title"
+        tools:ignore="InvalidId" />
 
-</LinearLayout>
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

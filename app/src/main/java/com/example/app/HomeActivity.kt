@@ -8,7 +8,7 @@ import com.example.app.databinding.ActivityHomeBinding
 import com.example.app.fragments.HomeFragment
 import com.google.firebase.auth.FirebaseAuth
 
-class HomeActivity : AppCompatActivity() {
+class HomeActivity () : AppCompatActivity() {
 
     private lateinit var binding: ActivityHomeBinding
     private lateinit var auth: FirebaseAuth

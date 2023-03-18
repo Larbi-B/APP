@@ -1,11 +1,5 @@
 <resources>
-    <string name="app_name">APP</string>
-    <string name="started_title">Azul</string>
-    <string name="started_sub_title">
-        Bienvenue !
-        <br><b>Si vous avez déjà un compte, Veuillez vous connecter</b></br>
-        <br><b>Pour créer un compte, Veuillez vous inscrire</b></br>
-    </string>
+    <string name="app_name">Let\'s Play</string>
     <string name="btn_register">Inscription</string>
     <string name="btn_login">Connexion</string>
     <string name="login_title">Connexion à l\'application</string>
@@ -33,9 +27,18 @@
     <string name="register_confirm_password">confirmer votre mot de passe</string>
     <string name="register_have_account">
         Vous avez déjà un compte !
-        <font color="#00C9B8"><b>Connectez-vous</b></font>
+        <font><b>Connectez-vous</b></font>
     </string>
     <string name="home_title">AZULLL</string>
     <string name="home_sub_title">Bienvenue sur la page d\'accueil</string>
     <string name="btn_logout">Déconnexion</string>
+
+    <!-- creation des evenements -->
+    <string name="addEvent_page_title"> Creation d\'un evenement </string>
+    <string name="comboboxEvents">Le type d\'événement</string>
+    <string name="evenements_venir">Evenements à venir</string>
+    <string name="started_sub_title">Hello everyone</string>
+    <string name="test">Test</string>
+
+
 </resources>

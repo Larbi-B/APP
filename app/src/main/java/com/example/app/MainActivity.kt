@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(it)
             }
 
-            // comments
         }
     }
 }

@@ -27,7 +27,7 @@ class HomeActivity : AppCompatActivity() {
                 startActivity(it)
                 Toast.makeText(this, "Déconnexion Réussite !", Toast.LENGTH_SHORT).show()
 
-                /// test commit
+
             }
         }
 

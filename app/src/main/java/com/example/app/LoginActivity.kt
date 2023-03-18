@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.example.app.databinding.ActivityLoginBinding
+import com.example.app.fragments.HomeFragment
 import com.google.firebase.auth.FirebaseAuth
 import com.jakewharton.rxbinding2.widget.RxTextView
 import io.reactivex.Observable
@@ -84,7 +85,7 @@ class LoginActivity : AppCompatActivity() {
         auth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener(this){ login ->
                 if (login.isSuccessful){
-                    Intent(this, HomeActivity::class.java).also {
+                    Intent(this, HomeFragment::class.java).also {
                         it.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                         startActivity(it)
                         Toast.makeText(this, "Connexion Réussite !", Toast.LENGTH_SHORT).show()

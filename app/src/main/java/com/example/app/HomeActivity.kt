@@ -26,6 +26,8 @@ class HomeActivity : AppCompatActivity() {
                 it.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                 startActivity(it)
                 Toast.makeText(this, "Déconnexion Réussite !", Toast.LENGTH_SHORT).show()
+
+                /// test commit
             }
         }
 

@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "756497584245",
-    "project_id": "let-s-play-213",
-    "storage_bucket": "let-s-play-213.appspot.com"
+    "project_number": "488829335986",
+    "project_id": "let-s-play-4e9b7",
+    "storage_bucket": "let-s-play-4e9b7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:756497584245:android:ae97e9987c8b7ba8b4683c",
+        "mobilesdk_app_id": "1:488829335986:android:4e84b0542b48959b370cab",
         "android_client_info": {
           "package_name": "com.example.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "756497584245-oorj0lkefqbg5g6tk0e59v64luesgcjm.apps.googleusercontent.com",
+          "client_id": "488829335986-07nkd6fefdmla3u13ibnealvfa23tqrn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC0eg0DG_cxkzD4Z1UjDqaQ8d2kDf1NQu0"
+          "current_key": "AIzaSyCs4GwaIXRz4RUH2034y4Ly2lZMBNUzJrQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "756497584245-oorj0lkefqbg5g6tk0e59v64luesgcjm.apps.googleusercontent.com",
+              "client_id": "488829335986-07nkd6fefdmla3u13ibnealvfa23tqrn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

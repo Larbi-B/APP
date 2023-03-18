@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/started_title"
+        android:text="hello"
         android:textColor="@color/white"
         android:textSize="36sp"
         android:textStyle="bold"

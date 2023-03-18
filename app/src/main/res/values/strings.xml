@@ -40,4 +40,5 @@
     <string name="btn_logout">Déconnexion</string>
     <string name="event_name">Match de foot</string>
     <string name="event_ville">Paris</string>
+    <string name="evenements_venir">Events</string>
 </resources>

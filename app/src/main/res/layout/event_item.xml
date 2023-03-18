@@ -23,7 +23,8 @@
             android:id="@+id/event_image"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_foot" />
+            android:src="@drawable/ic_foot"
+            tools:ignore="ContentDescription" />
     </androidx.cardview.widget.CardView>
 
     <View
@@ -66,7 +67,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/view_separation"
         app:layout_constraintEnd_toEndOf="@+id/view_separation"
         app:layout_constraintTop_toTopOf="@+id/view_separation"
-        tools:ignore="RtlHardcoded" />
+        tools:ignore="ContentDescription,RtlHardcoded" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

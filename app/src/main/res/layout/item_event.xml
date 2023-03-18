@@ -39,7 +39,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="@string/test"
         app:layout_constraintBottom_toTopOf="@+id/view_separation"
         app:layout_constraintStart_toEndOf="@+id/cardView" />
 
@@ -48,7 +47,6 @@
         style="@style/SubTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/test"
         app:layout_constraintStart_toStartOf="@+id/event_title"
         app:layout_constraintTop_toBottomOf="@+id/view_separation" />
 

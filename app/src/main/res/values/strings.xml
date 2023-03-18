@@ -40,4 +40,7 @@
     <string name="btn_logout">Déconnexion</string>
     <string name="event_name">Match de foot</string>
     <string name="event_ville">Paris</string>
+    <string name="nb_participant">0</string>
+    <string name="slash">/</string>
+    <string name="_nb_max_participant">25</string>
 </resources>

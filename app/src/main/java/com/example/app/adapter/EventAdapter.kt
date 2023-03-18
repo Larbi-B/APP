@@ -7,7 +7,7 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.app.R
 
-class EventAdapter : RecyclerView.Adapter<EventAdapter.ViewHolder>() {
+class EventAdapter (private val layout_id:Int) : RecyclerView.Adapter<EventAdapter.ViewHolder>() {
 
     class ViewHolder (view : View) : RecyclerView.ViewHolder(view){
         val eventImage = view.findViewById<ImageView>(R.id.event_image)

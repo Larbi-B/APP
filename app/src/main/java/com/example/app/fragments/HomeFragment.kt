@@ -23,8 +23,9 @@ class HomeFragment :Fragment() {
         val eventRecyclerView = view?.findViewById<RecyclerView>(R.id.event_recycler_view)
 
         if (eventRecyclerView != null) {
-            eventRecyclerView.adapter = EventAdapter()
+            eventRecyclerView.adapter = EventAdapter(R.layout.item_event)
         }
+
         return  view
     }
 

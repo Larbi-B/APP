@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.example.app.R
 import com.example.app.adapter.EventAdapter
+import com.example.app.adapter.EventItemDecor
 
 class HomeFragment : Fragment() {
 
@@ -25,6 +26,8 @@ class HomeFragment : Fragment() {
         val homeRecyclerView = view.findViewById<RecyclerView>(R.id.home_recycler_view)
 
         homeRecyclerView.adapter = EventAdapter ()
+
+        homeRecyclerView.addItemDecoration(EventItemDecor())
 
 
         return  view

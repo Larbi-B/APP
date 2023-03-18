@@ -20,7 +20,7 @@ class EventAdapter : RecyclerView.Adapter<EventAdapter.ViewHolder>(){
         return  ViewHolder(view)
     }
 
-    override fun getItemCount(): Int = 5
+    override fun getItemCount(): Int = 10
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         return
